@@ -1,0 +1,59 @@
+{
+  "name": "desafio-3-semana-12-node-aws",
+  "version": "1.0.0",
+  "description": "CRUD de Usuários e Eventos",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoOngaratto/PbMaioDes3_EduardoOngaratto.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Eduardo Ongaratto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoOngaratto/PbMaioDes3_EduardoOngaratto/issues"
+  },
+  "homepage": "https://github.com/EduardoOngaratto/PbMaioDes3_EduardoOngaratto#readme",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.0",
+    "aws-sdk": "^2.1665.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/jest": "^29.5.12",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/supertest": "^6.0.2",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "express-async-errors": "^3.1.1",
+    "globals": "^15.9.0",
+    "jest": "^29.7.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.3",
+    "typescript-eslint": "^8.0.1"
+  }
+}
