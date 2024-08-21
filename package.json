@@ -9,19 +9,6 @@
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EduardoOngaratto/PbMaioDes3_EduardoOngaratto.git"
-  },
-  "keywords": [
-    "api"
-  ],
-  "author": "Eduardo Ongaratto",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EduardoOngaratto/PbMaioDes3_EduardoOngaratto/issues"
-  },
-  "homepage": "https://github.com/EduardoOngaratto/PbMaioDes3_EduardoOngaratto#readme",
   "dependencies": {
     "@types/express": "^4.17.21",
     "@types/node": "^22.0.0",
